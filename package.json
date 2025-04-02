@@ -6,7 +6,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron src/main.js"
   },
   "eslintConfig": {
     "extends": [
@@ -28,5 +29,11 @@
   },
   "devDependencies": {
     "electron": "^35.1.2"
+  },
+  "dependencies": {
+    "electron-store": "^10.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1"
   }
 }
